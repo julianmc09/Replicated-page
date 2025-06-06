@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .principal-menu {
     display: grid;
@@ -10,7 +14,9 @@
 
 .main-title {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
+    margin-top:50px;
+    margin-left: 300px;
 }
 
 .header-introduction {
@@ -19,7 +25,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 140px;
+
 }
 
 .subtitle {
@@ -36,7 +43,7 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
 }
 
 .menu ul {
@@ -44,19 +51,24 @@
     list-style-type: none;
     justify-content: flex-end;
     padding: 0px;
-    margin-right: 80px;
+    margin-right: 330px;
     margin-top: 50px;
 }
 
 .menu li a {
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding:20px;
+    font-size: 18px;
 }
 
-.img{
-    width: 650px;
-    height: 450px;
+.title-main{
+    margin-bottom: 30px;
+}
+
+.images{
+    width: 740px;
+    height: 520px;
 }
 
 .first-button{
@@ -77,4 +89,90 @@
     display: flex;
     float: left;
     border-color: rgb(255, 255, 255);
+}
+
+.blog-information{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin-top: 25px;
+}
+
+.blog{
+    margin-left: 300px;
+}
+
+.courses-title{
+    margin-bottom: 30px;
+}
+
+.courses-subtitle{
+    margin-bottom: 30px;
+}
+
+.price-title{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.quota-title{
+    font-size: 18px;
+}
+
+.second-button a{
+    border: solid black 2px;
+    padding: 17px;
+    background-color:black;
+    text-decoration: none;
+    color: white;
+}
+
+.second-button{
+    margin-bottom: 15px;
+}
+
+.types-coffee{
+    margin-left: 300px;
+}
+
+.titles-of-main{
+    margin-bottom: 20px;
+}
+
+.paragraphs-style{
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.coffee-recipes{
+    margin-left: 300px;
+}
+
+.line2{
+    width: 738px;
+    display: flex;
+    float: left;
+    border-color: rgb(255, 255, 255);
+}
+
+.benefits-coffee{
+    margin-left: 300px;
+}
+
+.footer{
+    background-color: black;
+    height: 120px;
+    margin-top: 100px;
+}
+
+.footer-title{
+    color: white;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.footer-information{
+    display: flex;
+    justify-content: space-between;
 }
